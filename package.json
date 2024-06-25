@@ -1,11 +1,19 @@
 {
-  "name": "git-api-test-file",
+  "name": "express-swagger-docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Automatically generate swagger docs based on jsdocs",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
